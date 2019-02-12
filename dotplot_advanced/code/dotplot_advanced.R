@@ -22,7 +22,8 @@ library(ggplot2)
 ######### brand #########
 #########################
 setwd("../"); setwd("figure")
-if(any(dir() == "brand")){unlink("brand", recursive = T)} else {dir.create("brand")}; setwd("brand")
+if(any(dir() == "brand")){unlink("brand", recursive = T)}; {dir.create("brand")}
+setwd("brand")
 
 # split by brand
 df_brand_split <- split(df, df$brand)
@@ -58,7 +59,8 @@ for(i in 1:length(df_brand_split)){
 ######### country #########
 ###########################
 setwd("../")
-if(any(dir() == "country")){unlink("country", recursive = T)} else {dir.create("country")}; setwd("country")
+if(any(dir() == "country")){unlink("country", recursive = T)}; {dir.create("country")}
+setwd("country")
 
 # split by country
 df_country_split <- split(df, df$country)
