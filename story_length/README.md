@@ -1,0 +1,3 @@
+This is a data visualization exercise to look at the relationship between length of a story (word count) and page views (pvs). In addition, we look at publication channel (brand) and average reading time of an article. The null hypothesis is that there is no relationship between length of a story and page views (and we are correct in pointing out that there is no such relationship). The only mild positive correlation found in the study is between length of a story and average reading time. A longer story would simply require longer time to read, but it doesn't imply higher/better page views.
+
+In this exercise, we rely on ggplot2, plotly and htmlwidgets packages to create interactive visualization in html (see "word_count.html" and "word_count2.html"). 
